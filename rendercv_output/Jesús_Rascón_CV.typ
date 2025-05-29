@@ -470,7 +470,7 @@
     #strong[Graphext], Design Engineer, Technical Producer
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Redesigned and built the #link("https://graphext.com")[landing page], migrating it from Webflow to NextJS 15. The page features carefully crafted mobile and desktop layouts, light and dark themes, smooth animations and a connection to a Notion database from which the Blog, the About page and other sections get their data from.],[Redesigned and built Tractor 2.0, the most comprehensive and easy tool for scraping social media data, helping bring back several clients in need for scraping and social media analysis. The product features a fast interface, delightful animations and an AI-powered query builder that help build complex queries that would otherwise be cumbersome to write.],[Created and maintained the #link("https://docs.graphext.com/")[documentation] almost from scratch, with special care in writing and screenshot composing. Helped reduce the number of support tickets and inbound questions.],[Managed the #link("https://www.youtube.com/@graphextdatasearch")[Youtube channel], creating tutorials ranging from very basic to somewhat complex topics regarding Graphext and how to use it properly.],)
+    #v(design-highlights-top-margin);#highlights([Redesigned and built the #link("https://graphext.com")[landing page], migrating it from Webflow to NextJS 15. The page features carefully crafted mobile and desktop layouts, light and dark themes, smooth animations and a connection to a Notion database from which the Blog, the About page and other sections get their data from.],[Redesigned and built Tractor 2.0, the most comprehensive and easy tool for scraping social media data, helping bring back several clients in need for scraping and social media analysis. The product features a fast interface, delightful animations and an AI-powered query builder that help build complex queries that would otherwise be cumbersome to write.],[Created and maintained the #link("https://docs.graphext.com/")[documentation] almost from scratch, with special care in writing and screenshot composing. Helped reduce the number of support tickets and inbound questions.],[Managed the #link("https://www.youtube.com/@graphextlabs")[Youtube channel], creating tutorials ranging from very basic to somewhat complex topics regarding Graphext and how to use it properly.],)
   ],
   right-content: [
     Madrid, Remote
@@ -485,7 +485,7 @@ Feb 2024 – May 2025
     #strong[Prisms Of Reality], Technical Content Creator
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Created 500+ mathematical animations using #link("https://github.com/3b1b/manim")[Manim]],[Helped manage a small team through tight deadlines by enhancing communication and improving async handoff between tasks],[Worked closely with the CEO to provide clarity and direction on the projects at hand],)
+    #v(design-highlights-top-margin);#highlights([Created 500+ mathematical animations using #link("https://www.manim.community/")[Manim]],[Helped manage a small team through tight deadlines by enhancing communication and improving async handoff between tasks],[Worked closely with the CEO to provide clarity and direction on the projects at hand],)
   ],
   right-content: [
     San Francisco, Remote
@@ -500,7 +500,7 @@ June 2023 – Feb 2024
     #strong[Design Bits], Freelancer
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Consultancy in animation engineering for youtube channels, including Veritasium, Memeable Data and Reducible, earning 80+ million impressions combined],[Consultancy in web development for universities and small companies],[Consultancy in branding and marketing, creating brand guidelines and assets for youtube channels as well async],[Created a #link("https://www.youtube.com/@jesirgb")[Youtube channel] talking about Computational Design, getting almost 700 subscribers from two highly produced videos.],)
+    #v(design-highlights-top-margin);#highlights([Consultancy in animation engineering for youtube channels, including Veritasium, Memeable Data and Reducible, earning 80+ million impressions combined],[Consultancy in web development for universities and small companies],[Consultancy in branding and marketing, creating brand guidelines and assets for youtube channels as well async],[Created a #link("https://www.youtube.com/@Design_Bits")[Youtube channel] talking about Computational Design, getting almost 700 subscribers from two highly produced videos.],)
   ],
   right-content: [
     Jaén, Córdoba, Remote
@@ -575,7 +575,7 @@ Sept 2016 – June 2020
     #v(-design-text-leading)
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Implementation of native gif saving functionality for the p5.js graphics library])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Implemented a fast and efficient #link("https://www.jesirgb.com/blog/gif-encoding")[client-side GIF encoder]],[Wrote an #link("https://www.jesirgb.com/blog/gif-encoding")[article] that dives deep into the topic],[Developed a custom algorithm for finding similar pixels between frames in order to reference them and save space in the final result],[Implemented async UI feedback to reassure the process is working correctly for users],[Built in Javascript and using Matt Deslauriers gifenc library.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Implemented a fast and efficient #link("https://github.com/processing/p5.js/pull/5709")[client-side GIF encoder]],[Wrote an #link("https://www.jesirgb.com/blog/gif-encoding")[article] that dives deep into the topic],[Developed a custom algorithm for finding similar pixels between frames in order to reference them and save space in the final result],[Implemented async UI feedback to reassure the process is working correctly for users],[Built in Javascript and using Matt Deslauriers gifenc library.],)
   ],
 )
 
@@ -583,7 +583,7 @@ Sept 2016 – June 2020
 
 #one-col-entry(
   content: [
-    #strong[Mapa Elecciones 2023]
+    #link("https://mapa-elecciones-two.vercel.app/")[#strong[Mapa Elecciones 2023]]
 
     #v(-design-text-leading)
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [An interactive map of the results of the 2023 Spanish elections])], column-gutter: 0cm)
@@ -596,7 +596,7 @@ Sept 2016 – June 2020
 
 #one-col-entry(
   content: [
-    #strong[Pangea]
+    #link("https://pangea-game.vercel.app/")[#strong[Pangea]]
 
     #v(-design-text-leading)
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [The classic country guessing game, redesigned])], column-gutter: 0cm)
