@@ -1,44 +1,52 @@
 cv:
   name: Jesús Rascón
-  location: Córdoba
-  email: blograso@gmail.com
+  email: jesirgb@gmail.com
   website: https://jesirgb.com
   social_networks:
     - network: LinkedIn
       username: jesi-rgb
     - network: GitHub
       username: jesi-rgb
+    - network: YouTube
+      username: Design_Bits
+    - network: X
+      username: jesi_rgb
   sections:
     experience:
       - company: Graphext
         position: Design Engineer, Technical Producer
-        date:
         start_date: 2024-02
         end_date: 2025-05
         location: Madrid, Remote
         summary:
         highlights:
-          - Developed deep learning models for the detection of gravitational waves in LIGO data
-          - Published [3 peer-reviewed research papers](https://example.com) about the project and results
-      - company: Company B
-        position: Summer Intern
+          - Redesigned and built the [landing page](https://graphext.com), migrating it from Webflow to NextJS 15. The page features carefully crafted mobile and desktop layouts, light and dark themes, smooth animations and a connection to a Notion database from which the Blog, the About page and other sections get their data from.
+          - Redesigned and built Tractor 2.0, the most comprehensive and easy tool for scraping social media data, helping bring back several clients in need for scraping and social media analysis. The product features a fast interface, delightful animations and an AI-powered query builder that help build complex queries that would otherwise be cumbersome to write.
+          - Created and maintained the [documentation](https://docs.graphext.com/) almost from scratch, with special care in writing and screenshot composing. Helped reduce the number of support tickets and inbound questions.
+          - Managed the [Youtube channel](https://www.youtube.com/@graphextdatasearch), creating tutorials ranging from very basic to somewhat complex topics regarding Graphext and how to use it properly.
+      - company: Prisms Of Reality
+        position: Technical Content Creator
         date:
         start_date: 2023-06
-        end_date: 2023-09
-        location: Ankara, Türkiye
+        end_date: 2024-02
+        location: San Francisco, Remote
         summary:
         highlights:
-          - Optimized the production line by 15% by implementing a new scheduling algorithm
-      - company: Company A
-        position: Summer Intern
+          - 'Created 500+ mathematical animations using [Manim](https://github.com/3b1b/manim)'
+          - Helped manage a small team through tight deadlines by enhancing communication and improving async handoff between tasks
+          - Worked closely with the CEO to provide clarity and direction on the projects at hand
+      - company: Design Bits
+        position: Freelancer
         date:
-        start_date: 2022-06
-        end_date: 2022-09
-        location: Istanbul, Türkiye
+        start_date: 2021-09
+        end_date: present
+        location: Jaén, Córdoba, Remote
         summary:
         highlights:
-          - Designed an inventory management web application for a warehouse
-
+          - Consultancy in animation engineering for youtube channels, including Veritasium, Memeable Data and Reducible, earning 80+ million impressions combined
+          - Consultancy in web development for universities and small companies
+          - Consultancy in branding and marketing, creating brand guidelines and assets for youtube channels as well async
+          - 'Created a [Youtube channel](https://www.youtube.com/@jesirgb) talking about Computational Design, getting almost 700 subscribers from two highly produced videos.'
     education:
       - institution: University of Granada
         area: Data Science
@@ -48,7 +56,9 @@ cv:
         location: Granada, Spain
         summary:
         highlights:
-          - Working on the optimization of autonomous vehicles in urban environments
+          - 8/10 average
+          - Development of advanced data science algorithms from scratch, like k-NN or PCA.
+          - '**Coursework**: Advanced Statistics, Computer Vision, Advanced Data Science Algorithms'
       - institution: University of Jaén
         area: Computer Science
         degree: BS
@@ -56,98 +66,84 @@ cv:
         end_date: 2020-06
         location: Jaén, Spain
         highlights:
-          - '7.5/10 avg, 1 subject passed with honors'
+          - '7.5/10 average, 1 subject passed with honors'
           - '10/10 final thesis on developing a custom vision neural net for detecting animals in camera trap images'
-          - '**Coursework**: Computer Architecture, Algorithm Design, Artificial Intelligence, Heuristics and Metaheuristics, Computer Graphics, Algebra' 
-    
+          - '**Coursework**: Computer Architecture, Algorithm Design, Artificial Intelligence, Heuristics and Metaheuristics, Computer Graphics, Algebra'
     projects:
-      - name: '[Example Project](https://example.com)'
-        date:
-        start_date: 2024-05
-        end_date: present
-        location:
-        summary: A web application for writing essays
+      - name: '[Tractor 2.0](https://tractor.graphext.com)'
+        summary: A fast and easy tool for scraping social media data
         highlights:
-          - Launched an [iOS app](https://example.com) in 09/2024 that currently has 10k+ monthly active users
-          - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
-      - name: '[Teaching on Udemy](https://example.com)'
-        date: Fall 2023
-        start_date:
-        end_date:
-        location:
-        summary:
+          - Download data from the available social media sources in seconds
+          - Hassle free experience, minimal setup
+          - Apify wrapper specialized in social media and SEO
+          - Great UI and UX, with special attention to details
+          - Built on Svelte and Typescript on top of Apify's enpoints
+      - name: "22' Google Summer of Code"
+        summary: Implementation of native gif saving functionality for the p5.js graphics library
         highlights:
-          - Instructed the "Statics" course on Udemy (60,000+ students, 200,000+ hours watched)
+          - 'Implemented a fast and efficient [client-side GIF encoder](https://www.jesirgb.com/blog/gif-encoding)'
+          - 'Wrote an [article](https://www.jesirgb.com/blog/gif-encoding) that dives deep into the topic'
+          - Developed a custom algorithm for finding similar pixels between frames in order to reference them and save space in the final result
+          - Implemented async UI feedback to reassure the process is working correctly for users
+          - Built in Javascript and using Matt Deslauriers gifenc library.
+      - name: Mapa Elecciones 2023
+        summary: An interactive map of the results of the 2023 Spanish elections
+        highlights:
+          - Used Mapbox to render the election results on a per neighbourhood basis
+          - Overlay of mean 2018 salaries to compare against the election results
+          - Built on Svelte, Mapbox, inspired by eldiario.es
+      - name: Pangea
+        summary: The classic country guessing game, redesigned
+        highlights:
+          - Custom SVG processing for the country visualization
+          - When wrong, an arrow points to the correct country, hinting at the answer
+          - Built on Svelte and D3.js
     skills:
-      - label: Programming
-        details: Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps
-      - label: Mathematics
-        details: Good understanding of differential equations, calculus, and linear algebra
       - label: Languages
-        details: 'English (fluent, TOEFL: 118/120), Turkish (native)'
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        url:
-        journal:
-        date: 2004-01
-    extracurricular_activities:
-      - bullet: 'There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Each entry type has a different structure and layout. This document demonstrates all of them.
-    numbered_entries:
-      - number: This is a numbered entry.
-      - number: This is another numbered entry.
-      - number: This is the third numbered entry.
-    reversed_numbered_entries:
-      - reversed_number: This is a reversed numbered entry.
-      - reversed_number: This is another reversed numbered entry.
-      - reversed_number: This is the third reversed numbered entry.
+        details: JS/TS, Python
+      - label: Technologies
+        details: Svelte 5, NextJS 15, D3, TailwindCSS, React, Manim, LaTeX
+      - label: Development Software
+        details: Neovim, Git, Browser Devtools, ChatWise, Raycast 
+      - label: Production & Creativiy Software
+        details: DaVinci Resolve, Affinity Suite, Figma, Logic Pro 11, Blender
+
 design:
-  theme: classic
+  theme: sb2nov
   page:
     size: a4
-    top_margin: 2cm
-    bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
-    show_page_numbering: true
+    top_margin: 1cm
+    bottom_margin: 1cm
+    left_margin: 1cm
+    right_margin: 1cm
   colors:
-    text: rgb(0, 0, 0)
-    name: rgb(0, 79, 144)
-    connections: rgb(0, 79, 144)
-    section_titles: rgb(0, 79, 144)
-    links: rgb(0, 79, 144)
+    text: rgb(80,80,80)
+    name: rgb(34, 110, 72)
+    connections: rgb(34, 110, 72)
+    section_titles: rgb(34, 110, 72)
+    links: rgb(34, 110, 72)
   text:
-    font_family: DejaVu Sans Mono
-    font_size: 10pt
-    leading: 0.6em
+    font_family: AT Name Mono
+    font_size: 8pt
+    leading: 0.8em
     alignment: justified
     date_and_location_column_alignment: right
   links:
-    underline: false
+    underline: true
     use_external_link_icon: true
   header:
-    name_font_family: Source Sans 3
-    name_font_size: 30pt
+    name_font_family: At Name Mono
+    name_font_size: 20pt
     name_bold: true
-    small_caps_for_name: false
-    photo_width: 3.5cm
+    connections_font_family: At Name Mono
+    alignment: left
     vertical_space_between_name_and_connections: 0.7cm
     vertical_space_between_connections_and_first_section: 0.7cm
     horizontal_space_between_connections: 0.5cm
-    connections_font_family: Source Sans 3
-    separator_between_connections: ''
-    use_icons_for_connections: true
-    use_urls_as_placeholders_for_connections: false
-    make_connections_links: true
-    alignment: center
+    separator_between_connections: '·'
   section_titles:
-    type: with-partial-line
-    font_family: Source Sans 3
+    type: moderncv
+    font_family: At Name Mono
     font_size: 1.4em
     bold: true
     small_caps: false
@@ -164,8 +160,7 @@ design:
     short_second_row: false
     show_time_spans_in: []
   highlights:
-    bullet: •
-    nested_bullet: '-'
+    bullet: ◆
     top_margin: 0.25cm
     left_margin: 0.4cm
     vertical_space_between_highlights: 0.25cm
