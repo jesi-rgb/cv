@@ -36,25 +36,15 @@
 - Consultancy in branding and marketing, creating brand guidelines and assets for youtube channels as well async
 - Created a [Youtube channel](https://www.youtube.com/@Design_Bits) talking about Computational Design, getting almost 700 subscribers from two highly produced videos.
 
-# Education
-
-## University of Granada, MS in Data Science
-
-- Sept 2020 – June 2021
-- Granada, Spain
-- 8/10 average
-- Development of advanced data science algorithms from scratch, like k-NN or PCA.
-- **Coursework**: Advanced Statistics, Computer Vision, Advanced Data Science Algorithms
-
-## University of Jaén, BS in Computer Science
-
-- Sept 2016 – June 2020
-- Jaén, Spain
-- 7.5/10 average, 1 subject passed with honors
-- 10/10 final thesis on developing a custom vision neural net for detecting animals in camera trap images
-- **Coursework**: Computer Architecture, Algorithm Design, Artificial Intelligence, Heuristics and Metaheuristics, Computer Graphics, Algebra
-
 # Projects
+
+## [Conduit](https://conduitchat.app)
+
+- Built on Svelte, Drizzle and Typescript
+- Novel branching features from excerpts or whole messages
+- Keeps context of the conversation clean
+- Special attention to design and UX
+- [Pitch demo](https://x.com/jesi_rgb/status/1935387735386177548)
 
 ## [Tractor 2.0](https://tractor.graphext.com)
 
@@ -64,7 +54,7 @@
 - Great UI and UX, with special attention to details
 - Built on Svelte and Typescript on top of Apify's enpoints
 
-## 22' Google Summer of Code
+## [22' Google Summer of Code](https://github.com/processing/p5.js/pull/5709)
 
 - Implemented a fast and efficient [client-side GIF encoder](https://github.com/processing/p5.js/pull/5709)
 - Wrote an [article](https://www.jesirgb.com/blog/gif-encoding) that dives deep into the topic
@@ -84,9 +74,27 @@
 - When wrong, an arrow points to the correct country, hinting at the answer
 - Built on Svelte and D3.js
 
+# Education
+
+## University of Granada, MS in Data Science
+
+- Sept 2020 – June 2021
+- Granada, Spain
+- 8/10 average
+- Development of advanced data science algorithms from scratch, like k-NN or PCA.
+- **Coursework**: Advanced Statistics, Computer Vision, Advanced Data Science Algorithms
+
+## University of Jaén, BS in Computer Science
+
+- Sept 2016 – June 2020
+- Jaén, Spain
+- 7.5/10 average, 1 subject passed with honors
+- 10/10 final thesis on developing a custom vision neural net for detecting animals in camera trap images
+- **Coursework**: Computer Architecture, Algorithm Design, Artificial Intelligence, Heuristics and Metaheuristics, Computer Graphics, Algebra
+
 # Skills
 
 - Languages: JS/TS, Python
 - Technologies: Svelte 5, NextJS 15, D3, TailwindCSS, React, Manim, LaTeX
-- Development Software: Neovim, Git, Browser Devtools, ChatWise, Raycast
+- Development Software: Neovim, Git, Browser Devtools, VSCode
 - Production & Creativiy Software: DaVinci Resolve, Affinity Suite, Figma, Logic Pro 11, Blender

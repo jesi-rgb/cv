@@ -47,6 +47,45 @@ cv:
           - Consultancy in web development for universities and small companies
           - Consultancy in branding and marketing, creating brand guidelines and assets for youtube channels as well async
           - 'Created a [Youtube channel](https://www.youtube.com/@Design_Bits) talking about Computational Design, getting almost 700 subscribers from two highly produced videos.'
+
+    projects:
+      - name: '[Conduit](https://conduitchat.app)'
+        summary: A fast and cute AI chat app with one-of-a-kind branching features
+        highlights:
+          - Built on Svelte, Drizzle and Typescript
+          - Novel branching features from excerpts or whole messages
+          - Keeps context of the conversation clean
+          - Special attention to design and UX
+          - '[Pitch demo](https://x.com/jesi_rgb/status/1935387735386177548)'
+      - name: '[Tractor 2.0](https://tractor.graphext.com)'
+        summary: A fast and easy tool for scraping social media data
+        highlights:
+          - Download data from the available social media sources in seconds
+          - Hassle free experience, minimal setup
+          - Apify wrapper specialized in social media and SEO
+          - Great UI and UX, with special attention to details
+          - Built on Svelte and Typescript on top of Apify's enpoints
+      - name: "[22' Google Summer of Code](https://github.com/processing/p5.js/pull/5709)"
+        summary: Implementation of native gif saving functionality for the p5.js graphics library
+        highlights:
+          - 'Implemented a fast and efficient [client-side GIF encoder](https://github.com/processing/p5.js/pull/5709)'
+          - 'Wrote an [article](https://www.jesirgb.com/blog/gif-encoding) that dives deep into the topic'
+          - Developed a custom algorithm for finding similar pixels between frames in order to reference them and save space in the final result
+          - Implemented async UI feedback to reassure the process is working correctly for users
+          - Built in Javascript and using Matt Deslauriers gifenc library.
+      - name: '[Mapa Elecciones 2023](https://mapa-elecciones-two.vercel.app/)'
+        summary: An interactive map of the results of the 2023 Spanish elections
+        highlights:
+          - Used Mapbox to render the election results on a per neighbourhood basis
+          - Overlay of mean 2018 salaries to compare against the election results
+          - Built on Svelte, Mapbox, inspired by eldiario.es
+      - name: '[Pangea](https://pangea-game.vercel.app/)'
+        summary: The classic country guessing game, redesigned
+        highlights:
+          - Custom SVG processing for the country visualization
+          - When wrong, an arrow points to the correct country, hinting at the answer
+          - Built on Svelte and D3.js
+
     education:
       - institution: University of Granada
         area: Data Science
@@ -69,42 +108,13 @@ cv:
           - '7.5/10 average, 1 subject passed with honors'
           - '10/10 final thesis on developing a custom vision neural net for detecting animals in camera trap images'
           - '**Coursework**: Computer Architecture, Algorithm Design, Artificial Intelligence, Heuristics and Metaheuristics, Computer Graphics, Algebra'
-    projects:
-      - name: '[Tractor 2.0](https://tractor.graphext.com)'
-        summary: A fast and easy tool for scraping social media data
-        highlights:
-          - Download data from the available social media sources in seconds
-          - Hassle free experience, minimal setup
-          - Apify wrapper specialized in social media and SEO
-          - Great UI and UX, with special attention to details
-          - Built on Svelte and Typescript on top of Apify's enpoints
-      - name: "22' Google Summer of Code"
-        summary: Implementation of native gif saving functionality for the p5.js graphics library
-        highlights:
-          - 'Implemented a fast and efficient [client-side GIF encoder](https://github.com/processing/p5.js/pull/5709)'
-          - 'Wrote an [article](https://www.jesirgb.com/blog/gif-encoding) that dives deep into the topic'
-          - Developed a custom algorithm for finding similar pixels between frames in order to reference them and save space in the final result
-          - Implemented async UI feedback to reassure the process is working correctly for users
-          - Built in Javascript and using Matt Deslauriers gifenc library.
-      - name: '[Mapa Elecciones 2023](https://mapa-elecciones-two.vercel.app/)'
-        summary: An interactive map of the results of the 2023 Spanish elections
-        highlights:
-          - Used Mapbox to render the election results on a per neighbourhood basis
-          - Overlay of mean 2018 salaries to compare against the election results
-          - Built on Svelte, Mapbox, inspired by eldiario.es
-      - name: '[Pangea](https://pangea-game.vercel.app/)'
-        summary: The classic country guessing game, redesigned
-        highlights:
-          - Custom SVG processing for the country visualization
-          - When wrong, an arrow points to the correct country, hinting at the answer
-          - Built on Svelte and D3.js
     skills:
       - label: Languages
         details: JS/TS, Python
       - label: Technologies
         details: Svelte 5, NextJS 15, D3, TailwindCSS, React, Manim, LaTeX
       - label: Development Software
-        details: Neovim, Git, Browser Devtools, ChatWise, Raycast 
+        details: Neovim, Git, Browser Devtools, VSCode
       - label: Production & Creativiy Software
         details: DaVinci Resolve, Affinity Suite, Figma, Logic Pro 11, Blender
 
@@ -123,8 +133,8 @@ design:
     section_titles: rgb(34, 110, 72)
     links: rgb(34, 110, 72)
   text:
-    font_family: AT Name Mono
-    font_size: 8pt
+    font_family: AT Name Sans Text
+    font_size: 9pt
     leading: 0.8em
     alignment: justified
     date_and_location_column_alignment: right
@@ -132,10 +142,10 @@ design:
     underline: true
     use_external_link_icon: true
   header:
-    name_font_family: At Name Mono
+    name_font_family: Roslindale Deck
     name_font_size: 20pt
     name_bold: true
-    connections_font_family: At Name Mono
+    connections_font_family: AT Name Sans Text
     alignment: left
     vertical_space_between_name_and_connections: 0.7cm
     vertical_space_between_connections_and_first_section: 0.7cm
@@ -143,10 +153,9 @@ design:
     separator_between_connections: '·'
   section_titles:
     type: moderncv
-    font_family: At Name Mono
-    font_size: 1.4em
-    bold: true
-    small_caps: false
+    font_family: Roslindale Deck
+    font_size: 1.5em
+    small_caps: true
     line_thickness: 0.5pt
     vertical_space_above: 0.5cm
     vertical_space_below: 0.3cm
@@ -188,7 +197,7 @@ design:
         LOCATION
         DATE
     experience_entry:
-      main_column_first_row_template: '**COMPANY**, POSITION'
+      main_column_first_row_template: '**COMPANY**, *POSITION*'
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
@@ -245,5 +254,4 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-03-01'
   bold_keywords: []

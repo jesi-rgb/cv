@@ -3,36 +3,36 @@
 
 #let name = "Jesús Rascón"
 #let locale-catalog-page-numbering-style = context { "Jesús Rascón - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Mar 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Sept 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "a4"
-#let design-section-titles-font-size = 1.4em
+#let design-section-titles-font-size = 1.5em
 #let design-colors-text = rgb(80, 80, 80)
 #let design-colors-section-titles = rgb(34, 110, 72)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
 #let design-colors-name = rgb(34, 110, 72)
 #let design-colors-connections = rgb(34, 110, 72)
 #let design-colors-links = rgb(34, 110, 72)
-#let design-section-titles-font-family = "At Name Mono"
+#let design-section-titles-font-family = "Roslindale Deck"
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 0.5pt
-#let design-section-titles-font-size = 1.4em
+#let design-section-titles-font-size = 1.5em
 #let design-section-titles-type = "moderncv"
 #let design-section-titles-vertical-space-above = 0.5cm
 #let design-section-titles-vertical-space-below = 0.3cm
-#let design-section-titles-small-caps = false
+#let design-section-titles-small-caps = true
 #let design-links-use-external-link-icon = true
-#let design-text-font-size = 8pt
+#let design-text-font-size = 9pt
 #let design-text-leading = 0.8em
-#let design-text-font-family = "AT Name Mono"
+#let design-text-font-family = "AT Name Sans Text"
 #let design-text-alignment = "justified"
 #let design-text-date-and-location-column-alignment = right
 #let design-header-photo-width = 3.5cm
 #let design-header-use-icons-for-connections = true
-#let design-header-name-font-family = "At Name Mono"
+#let design-header-name-font-family = "Roslindale Deck"
 #let design-header-name-font-size = 20pt
 #let design-header-name-bold = true
-#let design-header-connections-font-family = "At Name Mono"
+#let design-header-connections-font-family = "AT Name Sans Text"
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
 #let design-header-use-icons-for-connections = true
@@ -467,7 +467,7 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Graphext], Design Engineer, Technical Producer
+    #strong[Graphext], #emph[Design Engineer, Technical Producer]
     #v(-design-text-leading)
 
     #v(design-highlights-top-margin);#highlights([Redesigned and built the #link("https://graphext.com")[landing page], migrating it from Webflow to NextJS 15. The page features carefully crafted mobile and desktop layouts, light and dark themes, smooth animations and a connection to a Notion database from which the Blog, the About page and other sections get their data from.],[Redesigned and built Tractor 2.0, the most comprehensive and easy tool for scraping social media data, helping bring back several clients in need for scraping and social media analysis. The product features a fast interface, delightful animations and an AI-powered query builder that help build complex queries that would otherwise be cumbersome to write.],[Created and maintained the #link("https://docs.graphext.com/")[documentation] almost from scratch, with special care in writing and screenshot composing. Helped reduce the number of support tickets and inbound questions.],[Managed the #link("https://www.youtube.com/@graphextlabs")[Youtube channel], creating tutorials ranging from very basic to somewhat complex topics regarding Graphext and how to use it properly.],)
@@ -482,7 +482,7 @@ Feb 2024 – May 2025
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Prisms Of Reality], Technical Content Creator
+    #strong[Prisms Of Reality], #emph[Technical Content Creator]
     #v(-design-text-leading)
 
     #v(design-highlights-top-margin);#highlights([Created 500+ mathematical animations using #link("https://www.manim.community/")[Manim]],[Helped manage a small team through tight deadlines by enhancing communication and improving async handoff between tasks],[Worked closely with the CEO to provide clarity and direction on the projects at hand],)
@@ -497,7 +497,7 @@ June 2023 – Feb 2024
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Design Bits], Freelancer
+    #strong[Design Bits], #emph[Freelancer]
     #v(-design-text-leading)
 
     #v(design-highlights-top-margin);#highlights([Consultancy in animation engineering for youtube channels, including Veritasium, Memeable Data and Reducible, earning 80+ million impressions combined],[Consultancy in web development for universities and small companies],[Consultancy in branding and marketing, creating brand guidelines and assets for youtube channels as well async],[Created a #link("https://www.youtube.com/@Design_Bits")[Youtube channel] talking about Computational Design, getting almost 700 subscribers from two highly produced videos.],)
@@ -506,6 +506,75 @@ June 2023 – Feb 2024
     Jaén, Córdoba, Remote
 
 Sept 2021 – present
+  ],
+)
+
+
+
+== Projects
+
+
+
+#one-col-entry(
+  content: [
+    #link("https://conduitchat.app")[#strong[Conduit]]
+
+    #v(-design-text-leading)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A fast and cute AI chat app with one-of-a-kind branching features])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built on Svelte, Drizzle and Typescript],[Novel branching features from excerpts or whole messages],[Keeps context of the conversation clean],[Special attention to design and UX],[#link("https://x.com/jesi_rgb/status/1935387735386177548")[Pitch demo]],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+
+#one-col-entry(
+  content: [
+    #link("https://tractor.graphext.com")[#strong[Tractor 2.0]]
+
+    #v(-design-text-leading)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A fast and easy tool for scraping social media data])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Download data from the available social media sources in seconds],[Hassle free experience, minimal setup],[Apify wrapper specialized in social media and SEO],[Great UI and UX, with special attention to details],[Built on Svelte and Typescript on top of Apify's enpoints],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+
+#one-col-entry(
+  content: [
+    #link("https://github.com/processing/p5.js/pull/5709")[#strong[22' Google Summer of Code]]
+
+    #v(-design-text-leading)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Implementation of native gif saving functionality for the p5.js graphics library])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Implemented a fast and efficient #link("https://github.com/processing/p5.js/pull/5709")[client-side GIF encoder]],[Wrote an #link("https://www.jesirgb.com/blog/gif-encoding")[article] that dives deep into the topic],[Developed a custom algorithm for finding similar pixels between frames in order to reference them and save space in the final result],[Implemented async UI feedback to reassure the process is working correctly for users],[Built in Javascript and using Matt Deslauriers gifenc library.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+
+#one-col-entry(
+  content: [
+    #link("https://mapa-elecciones-two.vercel.app/")[#strong[Mapa Elecciones 2023]]
+
+    #v(-design-text-leading)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [An interactive map of the results of the 2023 Spanish elections])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Used Mapbox to render the election results on a per neighbourhood basis],[Overlay of mean 2018 salaries to compare against the election results],[Built on Svelte, Mapbox, inspired by eldiario.es],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+
+#one-col-entry(
+  content: [
+    #link("https://pangea-game.vercel.app/")[#strong[Pangea]]
+
+    #v(-design-text-leading)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [The classic country guessing game, redesigned])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Custom SVG processing for the country visualization],[When wrong, an arrow points to the correct country, hinting at the answer],[Built on Svelte and D3.js],)
   ],
 )
 
@@ -551,62 +620,6 @@ Sept 2016 – June 2020
 
 
 
-== Projects
-
-
-
-#one-col-entry(
-  content: [
-    #link("https://tractor.graphext.com")[#strong[Tractor 2.0]]
-
-    #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A fast and easy tool for scraping social media data])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Download data from the available social media sources in seconds],[Hassle free experience, minimal setup],[Apify wrapper specialized in social media and SEO],[Great UI and UX, with special attention to details],[Built on Svelte and Typescript on top of Apify's enpoints],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-
-#one-col-entry(
-  content: [
-    #strong[22' Google Summer of Code]
-
-    #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Implementation of native gif saving functionality for the p5.js graphics library])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Implemented a fast and efficient #link("https://github.com/processing/p5.js/pull/5709")[client-side GIF encoder]],[Wrote an #link("https://www.jesirgb.com/blog/gif-encoding")[article] that dives deep into the topic],[Developed a custom algorithm for finding similar pixels between frames in order to reference them and save space in the final result],[Implemented async UI feedback to reassure the process is working correctly for users],[Built in Javascript and using Matt Deslauriers gifenc library.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-
-#one-col-entry(
-  content: [
-    #link("https://mapa-elecciones-two.vercel.app/")[#strong[Mapa Elecciones 2023]]
-
-    #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [An interactive map of the results of the 2023 Spanish elections])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Used Mapbox to render the election results on a per neighbourhood basis],[Overlay of mean 2018 salaries to compare against the election results],[Built on Svelte, Mapbox, inspired by eldiario.es],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-
-#one-col-entry(
-  content: [
-    #link("https://pangea-game.vercel.app/")[#strong[Pangea]]
-
-    #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [The classic country guessing game, redesigned])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Custom SVG processing for the country visualization],[When wrong, an arrow points to the correct country, hinting at the answer],[Built on Svelte and D3.js],)
-  ],
-)
-
-
-
 == Skills
 
 
@@ -619,7 +632,7 @@ Sept 2016 – June 2020
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Development Software:] Neovim, Git, Browser Devtools, ChatWise, Raycast]
+  content: [#strong[Development Software:] Neovim, Git, Browser Devtools, VSCode]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
